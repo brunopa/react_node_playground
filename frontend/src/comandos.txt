@@ -1,0 +1,29 @@
+    //return resp.send("hello");
+    
+/*
+    
+npm init -y
+    
+npm install express
+    
+npm add nodemon
+    
+npm add mongose
+    
+npm add axios
+    
+npm add cors
+    
+node ./src/index.js
+
+    
+npm start
+
+    */
+
+    
+
+//req.query
+    //req.params.id
+    //request.body
+    //
