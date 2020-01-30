@@ -1,2 +1,11 @@
-env: flex
-runtime: nodejs
+runtime: python27
+threadsafe: true
+
+handlers:
+- url: /
+  static_dir: build
+
+skip_files:
+  - ^node_modules/*$
+  - ^src/*$
+  - ^public/*$

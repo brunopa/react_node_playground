@@ -1,0 +1,50 @@
+    //return resp.send("hello");
+    
+/*
+    
+npm init -y
+    
+npm install express
+    
+npm add nodemon
+    
+npm add mongose
+    
+npm add axios
+    
+npm add cors
+    
+node ./src/index.js
+
+    no node
+npm start
+
+    no react
+npm run build
+
+    no react
+//req.query
+    //req.params.id
+    //request.body
+    //
+	
+	git remote -v
+
+
+Git
+git remote add origin [//your github url]
+
+//buscar
+git pull origin master 
+
+//enviar
+git push origin master
+
+
+app engine
+gcloud app deploy app.yaml --project brunosplayground -v [YOUR_VERSION_ID]
+gcloud app deploy app.yaml --project crested-column-455
+
+
+
+https://console.developers.google.com/apis/api/cloudbuild.googleapis.com/overview?project=crested-column-455 then retry. If you enabled this A

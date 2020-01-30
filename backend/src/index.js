@@ -1,12 +1,11 @@
-/*
 const process = require('process');
 const express = require('express')
 const mongose = require('mongoose')
 const routes = require('./routes')
 const cors = require('cors')
 const app = express()
-console.log('Conectando');
 
+console.log('Conectando');
 mongose.connect('mongodb+srv://root:senha123@cluster0-lh0q9.gcp.mongodb.net/test',
 {
     useUnifiedTopology: true,
@@ -24,28 +23,4 @@ app.listen(PORT, () => {
   console.log(`App listening on port ${PORT}`);
   console.log('Press Ctrl+C to quit.');
 });
-module.exports = app;
-*/
-'use strict';
-
-// [START gae_node_request_example]
-const express = require('express');
-
-const app = express();
-
-app.get('/', (req, res) => {
-  res
-    .status(200)
-    .send('Hello, world!')
-    .end();
-});
-
-// Start the server
-const PORT = process.env.PORT || 8080;
-app.listen(PORT, () => {
-  console.log(`App listening on port ${PORT}`);
-  console.log('Press Ctrl+C to quit.');
-});
-// [END gae_node_request_example]
-
 module.exports = app;
